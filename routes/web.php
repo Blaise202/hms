@@ -19,7 +19,7 @@ use App\Http\Controllers\AnalyticsController;
 
 Route::get('/',[HomeController::class,'index']);
 
-Route::get('/homee',[HomeController::class,'redirect'])->middleware('auth', 'verified');
+Route::get('/home',[HomeController::class,'redirect'])->middleware('auth', 'verified');
 
 Route::middleware(['auth:sanctum','verified'])->get('/dashboard',function(){
     return view('dashboard');
