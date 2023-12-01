@@ -18,8 +18,7 @@ class HomeController extends Controller
         {
             if(Auth::user()->usertype == "0")
             {
-                $doctor = doctors::all();  
-                return view("user.home",compact('doctor'));
+                return redirect("user.home");
             }
             else
             {
