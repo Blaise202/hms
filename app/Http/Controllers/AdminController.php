@@ -68,6 +68,7 @@ class AdminController extends Controller
         return redirect()->back(); 
     }
 
+    // displaying doctors
     public function ShowDoctors()
     {
         $data = doctors::all();
