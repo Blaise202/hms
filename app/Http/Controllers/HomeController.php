@@ -14,22 +14,22 @@ class HomeController extends Controller
     public function redirect()
     {
         //to check if the user is currently logged in 
-        if(Auth::id())
-        {
-            if(Auth::user()->usertype == "0")
-            {
-                return view("user.home");
-            }
-            else
-            {
-                return view("admin.home");
-            }
+        // if(Auth::id())
+        // {
+        //     if(Auth::user()->usertype == "0")
+        //     {
+        //         return view("user.home");
+        //     }
+        //     else
+        //     {
+        //         return view("admin.home");
+        //     }
             
-        }
-        else
-        {
-            return redirect()->back();
-        }
+        // }
+        // else
+        // {
+        //     return redirect()->back();
+        // }
     }
     public function index()
     {
