@@ -18,7 +18,7 @@ class HomeController extends Controller
         {
             if(Auth::user()->usertype == "0")
             {
-                return redirect("user.home");
+                return view("user.home");
             }
             else
             {
