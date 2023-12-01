@@ -1,2 +1,4 @@
 # hms
-;read me sample
+## read me sample
+- food
+- drinks
