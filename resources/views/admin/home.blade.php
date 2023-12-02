@@ -15,7 +15,7 @@
   <body>
 <div class="container-scroller">
       <!-- sidebar -->
-      @include('admin.sidebar')
+      {{-- @include('admin.sidebar') --}}
       <!-- navbar -->
       @include('admin.navbar')
       <!-- body -->
