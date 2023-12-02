@@ -18,8 +18,8 @@
       @include('admin.sidebar')
       <!-- navbar -->
       @include('admin.navbar')
-      {{-- <!-- body -->
-      @include('admin.body') --}}
+      <!-- body -->
+      @include('admin.body')
     
       @include('admin.scripts')
         

@@ -39,7 +39,7 @@
                             <th>Status</th>
                             <th>Approve</th>
                             <th>Cancel</th>
-                            <th>Send Mail</th>
+                            {{-- <th>Send Mail</th> --}}
                         </tr>
                     </thead>
                     <tbody>
@@ -62,11 +62,11 @@
                                     Canceled
                                 </a>
                             </td>
-                            <td>
+                            {{-- <td>
                                 <a class="btn btn-info" href="{{url('emailview',$appoints->id)}}">
                                     Mail
                                 </a>
-                            </td>
+                            </td> --}}
                         </tr>
                         @endforeach 
                     </tbody>

@@ -13,7 +13,7 @@
       <ul class="navbar-nav w-100">
         <li class="nav-item w-100">
           <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
-            <input type="text" class="form-control" placeholder="Search products">
+            <input style="color: rgb(199, 199, 199);" type="text" class="form-control" placeholder="Make a Search ">
           </form>
         </li>
       </ul>
@@ -54,7 +54,7 @@
             <i class="mdi mdi-home"></i>
           </a>
         </li>
-        <li class="nav-item dropdown border-left">
+        {{-- <li class="nav-item dropdown border-left">
           <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="mdi mdi-email"></i>
             <span class="count bg-success"></span>
@@ -141,7 +141,7 @@
             <div class="dropdown-divider"></div>
             <p class="p-3 mb-0 text-center">See all notifications</p>
           </div>
-        </li>
+        </li> --}}
         <x-app-layout>
         </x-app-layout>
       </ul>

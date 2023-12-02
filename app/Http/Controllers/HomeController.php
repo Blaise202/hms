@@ -18,7 +18,11 @@ class HomeController extends Controller
         {
             if(Auth::user()->usertype == '1')
             {
-                return view("admin.home");
+                $totalDoctors = doctors::count();
+        $totalAppointments = Appointments::count();
+        $totalUsers = User::count();
+        $totalNurses = Nurses::count();
+    return view('admin.home',compact('totalDoctors','totalAppointments','totalUsers','totalNurses'));
             }       
             else
             {
