@@ -16,13 +16,14 @@ class HomeController extends Controller
         //to check if the user is currently logged in 
         if(Auth::id())
         {
-            if(Auth::user()->usertype == '0')
-            {
-                return view("user.home");
-            }
-            else
+            if(Auth::user()->usertype == '1')
             {
                 return view("admin.home");
+            }
+            
+            else
+            {
+                return view("user.home");
             }
             
         }
