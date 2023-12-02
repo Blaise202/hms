@@ -1,4 +1,4 @@
-
+<base href="/public">
 
 <!DOCTYPE html>
 <html lang="en">

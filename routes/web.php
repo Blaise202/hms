@@ -54,7 +54,7 @@ Route::get('/emailview/{id}',[AdminController::class,'emailview']);
 
 Route::post('/sendemail/{id}',[AdminController::class,'sendemail']);
 
-Route::get('/home',[AnalyticsController::class,'counts']);
+Route::get('/adHome',[AnalyticsController::class,'counts']);
 
 Route::get('/ShowNurses',[AdminController::class,'ShowNurses']);
 

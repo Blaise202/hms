@@ -19,11 +19,11 @@ class HomeController extends Controller
             if(Auth::user()->usertype == '1')
             {
                 return view("admin.home");
-            }
-            
+            }       
             else
             {
-                return view("user.home");
+                $doctor = doctors::all();
+                return view("user.home", compact("doctor"));
             }
             
         }

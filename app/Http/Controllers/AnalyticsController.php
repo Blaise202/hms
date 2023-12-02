@@ -10,11 +10,11 @@ class AnalyticsController extends Controller
 {
     public function counts()
     {
-        $totalDoctors = Doctors::count();
+        $totalDoctors = doctors::count();
         $totalAppointments = Appointments::count();
         $totalUsers = User::count();
         $totalNurses = Nurses::count();
-    return view('admin.home',compact('totalDoctors','totalAppointments','totalUsers','totalNurses'));
+    return view('admin.Adhome',compact('totalDoctors','totalAppointments','totalUsers','totalNurses'));
     }
 
 }

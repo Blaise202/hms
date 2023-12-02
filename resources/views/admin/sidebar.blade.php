@@ -13,7 +13,7 @@
       </li>
      
       <li class="nav-item menu-items">
-        <a class="nav-link" href="{{ url('home') }}">
+        <a class="nav-link" href="{{ url('adHome') }}">
           <span class="menu-icon">
             <i class="mdi mdi-view-dashboard"></i>
           </span>
