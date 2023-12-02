@@ -146,5 +146,11 @@ class HomeController extends Controller
         }
     }
 
+    public function MeetDoctor()
+    {
+        $doctor =doctors::all();
+        return view("user.meetDoctor.MeetDoctor",compact("doctor"));
+    }
+
 
 }

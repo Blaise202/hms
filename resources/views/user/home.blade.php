@@ -119,9 +119,9 @@
     <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bg_image_1.jpg);">
         <div class="hero-section">
             <div class="container text-center wow zoomIn">
-                <span class="subhead">Let's make your life happier</span>
+                <span class="subhead">Feeling ill? Let us help you.</span>
                 <h1 class="display-4">Healthy Living</h1>
-                <a href="#" class="btn btn-primary">Let's Consult</a>
+                <a href="{{ url('MeetDoctor') }}" class="btn btn-primary">Meet a Doctor</a>
             </div>
         </div>
     </div>
