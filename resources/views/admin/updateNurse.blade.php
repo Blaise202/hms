@@ -23,12 +23,12 @@
       <div class=" page-body page-body-wrapper">
         
         <div class="container">
-            @if(session()->has('success'))
+            {{-- @if(session()->has('success'))
             <div class="alert alert-sussess">
                 {{ session()->get('success') }}
                 <button type="button" class="close" data-dismiss="alert" >X</button>   
             </div>
-        @endif
+        @endif --}}
             <form action="{{ url('editNurse', $data->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="row mt-5 "  >
@@ -50,11 +50,7 @@
                     </div>
                     <div class="col-12 col-sm-6 py-2 wow fadeInRight">
                         <label for="">Gender</label>
-                        <select type="text" class="form-control" style="color: rgb(133, 82, 82)"  name="gender" value="">
-                            <option value="">{{ $data->gender }}</option>
-                            <option value="">male</option>
-                            <option value="">female</option>
-                        </select>
+                        <input type="text" class="form-control" style="color: rgb(133, 82, 82)"  name="gender" value="{{ $data->gender }}">
                     </div>
                     <div class="col-12 col-sm-6 py-2 wow fadeInUp" data-wow-delay="300ms">
                         <label>Email Address</label>
