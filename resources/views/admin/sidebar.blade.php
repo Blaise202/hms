@@ -52,5 +52,13 @@
           <span class="menu-title">Nurses</span>
         </a>
       </li>
+      <li class="nav-item menu-items">
+        <a class="nav-link" href="{{ url('doc') }}">
+          <span class="menu-icon">
+            <i class="mdi mdi-mother-nurse"></i>
+          </span>
+          <span class="menu-title">doc</span>
+        </a>
+      </li>
     </ul>
   </nav>

@@ -77,3 +77,7 @@ Route::get('/news',[HomeController::class, 'News']);
 Route::get('/contacts',[HomeController::class, 'Contacts']);
 
 Route::get('/MeetDoctor',[HomeController::class, 'MeetDoctor']);
+
+
+
+Route::get('/doc',[AdminController::class, 'doc']);

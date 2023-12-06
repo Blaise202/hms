@@ -213,4 +213,9 @@ class AdminController extends Controller
         return redirect()->back()->with('success','Doctor updated successifully!');
     }
 
+    public function doc()
+    {
+        return view('doctor.d_home');
+    }
+
 }

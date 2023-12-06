@@ -16,19 +16,48 @@ class HomeController extends Controller
         //to check if the user is currently logged in 
         if(Auth::id())
         {
-            if(Auth::user()->usertype == '1')
+            if(Auth::user()->usertype == "supperAdmin")
+            {
+                
+            }
+            elseif(Auth::user()->usertype == 'admin')
             {
                 $totalDoctors = doctors::count();
-        $totalAppointments = Appointments::count();
-        $totalUsers = User::count();
-        $totalNurses = Nurses::count();
-    return view('admin.home',compact('totalDoctors','totalAppointments','totalUsers','totalNurses'));
+                $totalAppointments = Appointments::count();
+                $totalUsers = User::count();
+                $totalNurses = Nurses::count();
+                return view('admin.home',compact('totalDoctors','totalAppointments','totalUsers','totalNurses'));
             }       
+            elseif(Auth::user()->usertype == 'receptionist')
+            {
+            }
+            elseif(Auth::user()->usertype == 'cashier')
+            {
+            }
+            elseif(Auth::user()->usertype == 'doctor')
+            {
+            }
+            elseif(Auth::user()->usertype == 'pharmasist')
+            {
+            }
+            elseif(Auth::user()->usertype == 'laboratorian')
+            {
+            }
+            elseif(Auth::user()->usertype == 'manager')
+            {
+            }
+            elseif(Auth::user()->usertype == 'finance')
+            {
+            }
+            elseif(Auth::user()->usertype == 'HeadOfClinicalSevices')
+            {
+            }
             else
             {
                 $doctor = doctors::all();
                 return view("user.home", compact("doctor"));
             }
+
             
         }
         else
