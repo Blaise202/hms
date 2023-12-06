@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\AnalyticsController;
+use App\Http\Controllers\SupperAdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -78,6 +79,6 @@ Route::get('/contacts',[HomeController::class, 'Contacts']);
 
 Route::get('/MeetDoctor',[HomeController::class, 'MeetDoctor']);
 
-
-
 Route::get('/doc',[AdminController::class, 'doc']);
+
+Route::get('/su_home',[SupperAdminController::class, 'su_home']);

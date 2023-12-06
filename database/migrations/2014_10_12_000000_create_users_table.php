@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('phone');
             $table->string('address')->nullable();
-            $table->string('usertype')->default(0);
+            $table->string('usertype')->default('user');
 
             $table->string('password');
             $table->timestamps();

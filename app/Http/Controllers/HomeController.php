@@ -19,6 +19,11 @@ class HomeController extends Controller
             if(Auth::user()->usertype == "supperAdmin")
             {
                 
+                $totalDoctors = doctors::count();
+                $totalAppointments = Appointments::count();
+                $totalUsers = User::count();
+                $totalNurses = Nurses::count();
+                return view('supperadmin.home',compact('totalDoctors','totalAppointments','totalUsers','totalNurses'));
             }
             elseif(Auth::user()->usertype == 'admin')
             {
@@ -129,7 +134,7 @@ class HomeController extends Controller
             return redirect('home');
         }
         else{
-            $doctor = doctors::all(); // Assuming "doctors" is the model name
+            $doctor = doctors::all();
             return view("user.AboutUs", compact("doctor"));
         }
     }
