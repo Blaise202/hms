@@ -83,3 +83,4 @@ Route::get('/doc',[AdminController::class, 'doc']);
 
 Route::get('/su_home',[SupperAdminController::class, 'su_home']);
 
+// this was a test
