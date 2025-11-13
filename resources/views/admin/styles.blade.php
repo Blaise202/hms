@@ -3,10 +3,10 @@
 
 <link href="admin/assets/vendors/jvectormap/jquery-jvectormap.css" rel="stylesheet">
 <link href="admin/assets/vendors/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
-<link href="admin/assets/vendors/owlcarousel-2/owl.carousel.min.css" rel="stylesheet">
-<link href="admin/assets/vendors/owlcarousel-2/owl.theme.default.min.css" rel="stylesheet">
+<link href="admin/assets/vendors/owl-carousel-2/owl.carousel.min.css" rel="stylesheet">
+<link href="admin/assets/vendors/owl-carousel-2/owl.theme.default.min.css" rel="stylesheet">
 
-<link href="admin/assets/css/style.css" rel="stylesheet">
+<link href="admin/assets/styles/style.css" rel="stylesheet">
 
 <link href="admin/assets/images/favicon.png" rel="shortcut icon" />
 
