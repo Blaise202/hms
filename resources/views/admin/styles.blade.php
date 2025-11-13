@@ -1,16 +1,14 @@
-<link rel="stylesheet" href="admin/assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="admin/assets/vendors/css/vendor.bundle.base.css">
+<link href="admin/assets/vendors/mdi/css/materialdesignicons.min.css" rel="stylesheet">
+<link href="admin/assets/vendors/css/vendor.bundle.base.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="admin/assets/vendors/jvectormap/jquery-jvectormap.css">
-    <link rel="stylesheet" href="admin/assets/vendors/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="admin/assets/vendors/owl-carousel-2/owl.carousel.min.css">
-    <link rel="stylesheet" href="admin/assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+<link href="admin/assets/vendors/jvectormap/jquery-jvectormap.css" rel="stylesheet">
+<link href="admin/assets/vendors/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+<link href="admin/assets/vendors/owlcarousel-2/owl.carousel.min.css" rel="stylesheet">
+<link href="admin/assets/vendors/owlcarousel-2/owl.theme.default.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="admin/assets/css/style.css">
-    
-    <link rel="shortcut icon" href="admin/assets/images/favicon.png" />
+<link href="admin/assets/css/style.css" rel="stylesheet">
 
-    <!-- Add this to the head of your HTML file -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="admin/assets/images/favicon.png" rel="shortcut icon" />
 
-
+<!-- Add this to the head of your HTML file -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">

@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
 
-    <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+    <link rel="stylesheet" href="../assets/vendor/owlcarousel/css/owl.carousel.css">
 
     <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
 
@@ -555,7 +555,7 @@
 
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
-    <script src="../assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="../assets/vendor/owlcarousel/js/owl.carousel.min.js"></script>
 
     <script src="../assets/vendor/wow/wow.min.js"></script>
 
